@@ -1,0 +1,112 @@
+/*
+Theme Name: Cukrářství Sluníčko
+Theme URI:
+Author: Gina
+Author URI: www.gina-webovky.cz
+Description: Theme for Cukrářství Sluníčko
+Version: 1.0
+License: GNU General Public License
+License URI: license.txt
+Text Domain: cukrarstvi-slunicko
+*/
+
+body{
+    font-family: Tahoma;
+    
+    background-image: url("tutorial/assets/images/pozadi.jpg");
+    background-size: auto;
+    background-attachment: scroll;
+    
+}
+.content-wrap { background-color:#ffffff;
+}
+img { max-width:100%;
+}
+.footer,.copyrights {
+    text-align: center
+}
+
+/*----------------------------------------------------------------------*/
+/* Main navigation menu */
+/*----------------------------------------------------------------------*/
+.header-menu {float:left;
+  width:100%;
+  margin-top:18px;
+  background-color:#dedede;
+}
+.header-menu ul {float:left;
+  margin:0;
+  padding:0;
+  list-style:none;
+ 
+}
+ 
+.header-menu ul li {float:left;
+  margin:0;
+  padding:0;
+  position:relative;
+}
+.header-menu ul li a{
+  border-right:solid 1px #d3d3d3;                    
+}
+.header-menu ul li a, 
+.header-menu ul li.pagenav {  
+	padding: 0px 20px 0px 20px;
+  color: #333333;
+  float: left;
+  font-size: 14px; 
+  line-height:58px;
+  font-weight:normal;
+  text-transform:uppercase;
+}
+.header-menu ul li:last-child a{border-right:none;}
+.header-menu ul li.current-menu-item a,
+.header-menu ul li a:hover, 
+.header-menu ul li a.active, 
+.header-menu ul li.pagenav:hover {
+  background-color:#ffffff;
+  text-decoration:none;
+}
+ 
+.header-menu ul li ul{
+  display:none;
+}
+
+h1 {
+    color: gray;
+    text-align: center;
+}
+
+hr {
+    border: none;
+    border-top: 1px dotted silver;
+}
+
+p {
+    font-size: .85em;
+    color: gray;
+}
+
+#menu-main {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+#menu-main li {
+    display: inline-block;
+}
+
+#menu-main li a {
+    text-decoration: none;
+    background-color: gray;
+    color: white;
+    padding: 5px 10px;
+    margin: 0 5px;
+    border-radius: 4px;
+}
+
+#menu-main li a:hover {
+    background-color: silver;
+    color: black;
+}
